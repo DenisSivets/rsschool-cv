@@ -14,15 +14,16 @@ Git
 Golang basics
 JS basics
 Code example:
-                package main
+               const noSpace = (x) => {
+  let result = '';
+  for (let i = 0; i < x.length; i += 1) {
+    if (x[i] !== ' ') {
+      result = `${result}${x[i]}`;
+    }
+  }
+  return result;
 
-                import (
-                    "fmt"
-                )
-
-                func main() {
-                    fmt.Println("Hello, playground")
-                }
+}
 Experience:
 Mechanical engineer - Getz group Ltd. Minsk, Belarus
 Education:
